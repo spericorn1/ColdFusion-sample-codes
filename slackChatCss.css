@@ -1,0 +1,119 @@
+
+.maincontainer{
+    padding: 0px 15px;
+   
+}
+.fileouter{
+    border: 2px solid #ccc;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;    
+} 
+.image_file{
+    width:48px;
+    height:48px;
+}
+.loading{
+    color:#423a3a;
+    font-size: 13px;
+    height: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.userChatBlock{
+    height: 750px;
+    overflow-y: scroll;       
+    padding:5px;
+}  
+.border {
+    height: 5px;
+    width: 45%;
+    border-top: 1px solid #ccc;
+    display: inline-block;
+}      
+.chatMsgWrap {
+    width: 100%;
+    float: left;
+}
+.chatTime{
+    padding-left: 10px;
+}
+.chatTime, .starChat {
+    color: #999;
+    font-size: 12px;
+}
+.chatUserName {
+    font-weight: bold;
+    color: #606873;
+    font-size: 13px;
+}
+.clearfix {
+    clear: both;
+}   
+.slackChatTitle p {
+    padding: 0px;
+    margin: 0;
+}
+.slackChatTitle {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.slackChatMessenger {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.chatHeadName {
+    margin-top: 0px;
+    font-weight: 700;
+    color:#000;;
+}
+.chatAvtar {
+    position: relative;
+    top: 3px;
+    width: 36px;
+}
+.chatAvtar img{
+    border-radius: 3px;
+}
+.chatMsg {
+    width: 62%;
+    padding-left: 5px;
+}
+.floatleft {
+    float:  left;
+}
+.chatInputSec {
+    margin-right: 15px;
+    margin-left: 0;
+    margin-top:9px;
+}
+.txtCenter {
+    text-align: center;
+}
+#botUserNameSelect {
+    position: relative;
+    top: 5px !important;
+}
+.chatView {
+    display: none;
+}
+.sendBtn {
+    cursor: pointer;
+}
+
+#msgText{
+    border:1px solid ##ccc;
+}
+#user_typing{
+    color:#ccc;
+    font-size: 11px;
+    height: 15px;
+}
+.pin{
+    background-color: rgba(255,243,184,.3);
+}
+.pinnedBy{
+    margin-left: 41px;
+    font-size: 11px;
+}
